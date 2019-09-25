@@ -97,7 +97,7 @@ URL: localhost:5000/api/book/<id>
 
 Method: GET
 
-
+![alt text](https://github.com/siddharthcurious/book-store/blob/master/Screenshot%20from%202019-09-25%2009-31-40.png)
 
 5. Other URLs
 
