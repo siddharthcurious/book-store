@@ -45,4 +45,5 @@ URL: localhost:5000/api/user
 } `
 
 Example -
-https://github.com/siddharthcurious/book-store/blob/master/Screenshot%20from%202019-09-25%2008-52-21.png
+
+![alt text](https://github.com/siddharthcurious/book-store/blob/master/Screenshot%20from%202019-09-25%2008-52-21.png)
