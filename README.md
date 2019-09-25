@@ -33,7 +33,9 @@ b. Configure `config.py`
 
 1. Register an user
 
-URL: localhost:5000/api/user
+URL: localhost:5000/api/user 
+
+Method : POST
 
 `{
 	"username": "siddh",
@@ -62,6 +64,8 @@ Use the JWT token with other REST API calls
 
 URL: localhost:5000/api/book
 
+Method : GET
+
 body - 
 
 `{
@@ -74,15 +78,37 @@ body -
 
 
 Token missing
+
 ![alt text](https://github.com/siddharthcurious/book-store/blob/master/Screenshot%20from%202019-09-25%2009-14-38.png)
 
 Now try using token 
+
 ![alt text](https://github.com/siddharthcurious/book-store/blob/master/Screenshot%20from%202019-09-25%2009-20-32.png) 
 
 Add key-value in headers
+
 ![alt text](https://github.com/siddharthcurious/book-store/blob/master/Screenshot%20from%202019-09-25%2009-20-41.png)
 
 `x-api-key: <token>`
+
+4. Get book
+
+URL: localhost:5000/api/book/<id>
+
+Method: GET
+
+
+
+5. Other URLs
+
+GET ALL: localhost:5000/api/books
+
+PUT: localhost:5000/api/book/<id>
+  
+DELETE: localhost:5000/api/book/<id>
+
+
+
 
 
 
